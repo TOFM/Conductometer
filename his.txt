@@ -1,0 +1,724 @@
+    1  history -w
+    2  cat .bash_history 
+    3  clear
+    4  ls
+    5  mkdir projects
+    6  cd projects/
+    7  mkdir conductometer_0
+    8  rm conductometer_0/
+    9  rm -r conductometer_0/
+   10  mkdir conductometer
+   11  mkdir 0
+   12  cd conductometer/0
+   13  cd conductometer/
+   14  ls -ls
+   15  ls -la
+   16  rm -r ../0
+   17  mkdir 0
+   18  cd 0
+   19  clear
+   20  sudo ls /dev/ | grep tty
+   21  cat /dev/ttyACM0 
+   22  sudo cat /dev/ttyACM0 
+   23  sudo cat /dev/ttyACM0 > txt.txt
+   24  cat txt.txt 
+   25  nano serial.py
+   26  sudo python3 serial.py 
+   27  sudo python serial.py 
+   28  nano serial.py
+   29  python3 -m pip install pyserial
+   30  sudo python3 serial.py 
+   31  nano serial.py
+   32  sudo python3 serial.py 
+   33  nano serial.py
+   34  pip install serial
+   35  pip install pyserial
+   36  sudo pip install pyserial
+   37  nano serial.py
+   38  sudo pip install pyserial
+   39  sudo python3 serial.py 
+   40  pip3
+   41  pip3 install pyserial
+   42  python3 serial.py 
+   43  nano serial.py
+   44  python3 serial.py 
+   45  pip uninstall pserial
+   46  pip uninstall pyerial
+   47  pip uninstall pyserial
+   48  pip install pyserial
+   49  python3 serial.py 
+   50  pip uninstall pyserial
+   51  pip3 uninstall pyserial
+   52  python3 serial.py 
+   53  pip3 install pyserial
+   54  chmod +x serial.py
+   55  python3 serial.py 
+   56  sudo apt-get install python-serial python3-serial
+   57  python3 serial.py 
+   58  pip install pyserial
+   59  pip3 install pyserial
+   60  python -c "import serial; print(serial.__file__)"
+   61  pip list
+   62  cp serial.py cond.py
+   63  rm serial.py
+   64  python3 cond.py 
+   65  nano cond.py 
+   66  python3 cond.py 
+   67  rm *.pyc
+   68  python3 cond.py 
+   69  nano cond.py 
+   70  python3 cond.py 
+   71  chmod +x cond.py 
+   72  python3 cond.py 
+   73  groups
+   74  ls -l 
+   75  ls -l /dev/ttyACM
+   76  ls -l /dev/tty
+   77  ls -la /dev/tty
+   78  ls -la /dev/ttyACM0
+   79  sudo usermod -a -G dialout tofm
+   80  python3 cond.py 
+   81  droups tofm
+   82  groups tofm
+   83  id tofm
+   84  sudo chmod a+rw /dev/ttyACM0
+   85  python3 cond.py 
+   86  nano cond.py 
+   87  python3 cond.py 
+   88  sudo chmod a+rw /dev/ttyACM0
+   89  python3 cond.py 
+   90  nano test.py
+   91  python test.py 
+   92  sudo python test.py 
+   93  nano test1.py
+   94  python test1.py
+   95  pip install pigpio
+   96  python test1.py
+   97  nano test1.py
+   98  python test1.py
+   99  nano test1.py
+  100  nano read_PWM.py
+  101  rm test1.py
+  102  nano test1.py
+  103  python test1.py
+  104  nano test1.py
+  105  python test1.py
+  106  nano test1.py
+  107  nano read_PWM.py.py
+  108  nano read_PWM.py
+  109  python test1.py
+  110  nano read_PWM.py
+  111  sudo python test1.py
+  112  chmod +x test1.py
+  113  sudo python test1.py
+  114  python test1.py
+  115  pip3 install pigpio
+  116  pythn 3 test1.py 
+  117  python3 test1.py 
+  118  'NoneType' object has no attribute 'send'
+  119  nano read_PWM.py
+  120  nano test1.py
+  121  python3 test1.py 
+  122  nano test1.py
+  123  python3 test1.py 
+  124  nano freq.c
+  125  gcc
+  126  chmod +x freq.c 
+  127  ./freq.c 
+  128  ./freq.c 4 
+  129  gcc ./freq.c 4 
+  130  gcc freq.c  
+  131  gcc freq.c 4
+  132  sudo ./freq.c
+  133  gcc -0 freq.c 4
+  134  gcc -o freq.c 4
+  135  gcc -o freq freq.c 
+  136  gcc -Wall -o freq freq.c -lpigpio
+  137  ls
+  138  sudo gcc -Wall -o freq freq.c -lpigpio
+  139  sudo apt-get install gcc
+  140  make freq.c
+  141  make freq
+  142  cc freq.c -o freq
+  143  ./freq
+  144  freq
+  145  gcc freq
+  146  make freq 4
+  147  make CFLAGS=-O3 freq && time ./freq  4 >/dev/null
+  148  gcc -O3 -o freq freq.c -lpigpio
+  149  gcc -O3 -o freq freq.c -lpigpio -Werror
+  150  gcc -O3 -o freq freq.c -lpigpio -Wno-error=parentheses
+  151  ls
+  152  rm txt.txt 
+  153  rm freq.c 
+  154  nano freq
+  155  gcc -o freq freq.c -lpigpio -lpthread
+  156  cp freq freq.c
+  157  rm freq
+  158  gcc -o freq freq.c -lpigpio -lpthread
+  159  nano freq.c 
+  160  rm freq.c 
+  161  pwd
+  162  gcc 0o freq_count_2 freq_count_2.c -lpigpio -lpthread
+  163  gcc -o freq_count_2 freq_count_2.c -lpigpio -lpthread
+  164  ls
+  165  sudo apt-get install pigpio
+  166  gcc -o freq_count_2 freq_count_2.c -lpigpio -lpthread
+  167  ls
+  168  ./freq_count_2 4
+  169  sudo ./freq_count_2 4
+  170  sudo ./freq_count_2 4 -s3
+  171  sudo ./freq_count_2 4 -s2
+  172  sudo ./freq_count_2 4 -s6
+  173  sudo ./freq_count_2 4 -s 1
+  174  sudo ./freq_count_2 4 -s 6
+  175  sudo ./freq_count_2 4 -r 10
+  176  sudo ./freq_count_2 4 -r 20
+  177  sudo ./freq_count_2 4 -s 5
+  178  sudo ./freq_count_2 4 -s 1
+  179  sudo ./freq_count_2 4 -s 2
+  180  sudo ./freq_count_2 4 -s 3
+  181  sudo ./freq_count_2 4 -s 5
+  182  sudo ./freq_count_2 4 -s 6
+  183  sudo ./freq_count_2 4 -s 7
+  184  sudo ./freq_count_2 4 -s 8
+  185  sudo ./freq_count_2 4 -s 9
+  186  sudo ./freq_count_2 4 -s 10
+  187  sudo ./freq_count_2 4 
+  188  sudo ./freq_count_2 4 -s 4
+  189  sudo ./freq_count_2 4 -s 2
+  190  sudo ./freq_count_2 4 -s 6
+  191  lsusb
+  192  clear
+  193  ls
+  194  ls os
+  195  rm os
+  196  rm os -r
+  197  clear
+  198  cd cond
+  199  ls
+  200  cd projects/conductometer/
+  201  cd 0/
+  202  ls
+  203  cd /var/www/html/
+  204  ls
+  205  pip install plotly=4.12.0
+  206  pip install plotly==4.12.0
+  207  pip3 install plotly==4.12.0
+  208  pip3 install -U kaleido
+  209  pip install -U kaleido
+  210  pip install kaleido
+  211  exit
+  212  cd projects/conductometer/0/__pycache__/
+  213  cd ../
+  214  kls
+  215  ls
+  216  ./freq_count_2 
+  217  ./freq_count_2 4
+  218  sudo ./freq_count_2 4
+  219  sudo ./freq_count_2 4 4
+  220  sudo killall pigpiod
+  221  sudo killall pigpio
+  222  sudo killall pigpiod
+  223  sudo ./freq_count_2 4 4
+  224  gpiotest
+  225  g clear
+  226  clear
+  227  ps aux | grep pigpiod
+  228  sudo killall pigpiod
+  229  sudo kill -9 20143
+  230  sudo kill -9 568
+  231  htop
+  232  sudo kill -9 8413
+  233  sudo ./freq_count_2 4 4
+  234  sudo reboot
+  235  cd projects/conductometer/0/__pycache__//
+  236  cd ../
+  237  sudo ./freq_count_2 4
+  238  sudo ./freq_count_2 
+  239  sudo ./freq_count_2 4 -r2 -s4
+  240  sudo nano freq_count_2
+  241  sudo nano freq_count_2.c 
+  242  gcc -o freq_count_2 freq_count_2.c -lpigpio -lpthread
+  243  sudo nano freq_count_2.c 
+  244  gcc -o freq_count_2 freq_count_2.c -lpigpio -lpthread
+  245  sudo ./freq_count_2 4 -r2 -s4
+  246  gcc -o freq_count_2 freq_count_2.c -lpigpio -lpthread
+  247  sudo nano freq_count_2.c 
+  248  gcc -o freq_count_2 freq_count_2.c -lpigpio -lpthread
+  249  sudo nano freq_count_2.c 
+  250  gcc -o freq_count_2 freq_count_2.c -lpigpio -lpthread
+  251  sudo ./freq_count_2 4 -r2 -s4
+  252  sudo ./freq_count_2 4 -r2 -s4 -c100
+  253  sudo ./freq_count_2 4 -r2 -s4 -c1
+  254  sudo nano freq_count_2.c 
+  255  gcc -o freq_count_2 freq_count_2.c -lpigpio -lpthread
+  256  sudo ./freq_count_2 4 -r2 -s4 -c100
+  257  sudo ./freq_count_2 4 -r2 -s4 -c101
+  258  sudo nano freq_count_2.c 
+  259  gcc -o freq_count_2 freq_count_2.c -lpigpio -lpthread
+  260  sudo ./freq_count_2 4 -r2 -s4 -c101
+  261  sudo nano freq_count_2.c 
+  262  gcc -o freq_count_2 freq_count_2.c -lpigpio -lpthread
+  263  sudo ./freq_count_2 4 -r2 -s4 -c101
+  264  sudo ./freq_count_2 4 -r2 -s4 -c101 > test.txt
+  265  cat test
+  266  cat test.txt
+  267  rm test.txt 
+  268  sudo nano create_file.sh
+  269  rm create_file.sh 
+  270  sudo ./freq_count_2 4 -r2 -s4 -c400
+  271  sudo ./freq_count_2 4 -r2 -s4 -c400 > test.test
+  272  sudo cat test.test 
+  273  pip install plotly
+  274  ls
+  275  cat cond.py 
+  276  rm cond.py 
+  277  cat test1.py 
+  278  rm test1
+  279  rm test1.py 
+  280  cat test.
+  281  cat test.py 
+  282  rm test.py 
+  283  rm test.test 
+  284  ls
+  285  cat read_PWM.py
+  286  rm read_PWM.py
+  287  rm read_PWM.pyc
+  288  clear
+  289  ls
+  290  ls __pycache__/
+  291  rm __pycache__/
+  292  rm __pycache__/ -r
+  293  ls
+  294  clear
+  295  rm __pycache__/ -r
+  296  sudo rm __pycache__/ -r
+  297  clear
+  298  ls
+  299  sudo nano plotly.py
+  300  chmod +x plotly.py 
+  301  sudo chmod +x plotly.py 
+  302  ./plotly.py 
+  303  pip install plotly.express
+  304  pip install plotly-express
+  305  pip install plotly_express
+  306  sudo reboot
+  307  ls
+  308  cd projects/conductometer/0/
+  309  ls
+  310  ./plotly.py 
+  311  sudo nano plotly.py
+  312  ls
+  313  cat data.txt 
+  314  watch
+  315  watch data
+  316  watch data.txt
+  317  tail -f data.txt 
+  318  sudo tail -f data.txt 
+  319  pwd
+  320  sudo tail -f data.txt 
+  321  sudo tail -f /var/log/apache2/error.log
+  322  sudo pip install plotly_express
+  323  pip install plotly_express
+  324  pip install scipy
+  325  cd projects/conductometer/0/
+  326  ./plotly.py 
+  327  pip install plotly --upgrade
+  328  pip install plotly_express
+  329  pip install mpld3
+  330  ./plotly.py 
+  331  sudo nano plotly.py
+  332  ./plotly.py 
+  333  sudo nano plotly.py
+  334  ./plotly.py 
+  335  sudo nano plotly.py
+  336  ./plotly.py 
+  337  sudo nano plotly.py
+  338  ./plotly.py 
+  339  ls
+  340  cp figure.html /var/www/html/
+  341  cat figure
+  342  cat figure.html 
+  343  ./plotly.py 
+  344  sudo nano plotly.py
+  345  ./plotly.py 
+  346  cat figure.html 
+  347  ;s
+  348  ls
+  349  rm figure.html 
+  350  cat figure1.html 
+  351  cp figure1.html /var/www/html/
+  352  rm figure1.html 
+  353  sudo nano plotly.py
+  354  sudo ./freq_count_2 4 -r2 -s4 -c100
+  355  sudo ./freq_count_2 4 -r2 -s4 -c100 > data.txt
+  356  ./plotly.py 
+  357  ls
+  358  cat figure1.html 
+  359  sudo nano plotly.py
+  360  ./plotly.py 
+  361  sudo nano plotly.py
+  362  ./plotly.py 
+  363  sudo nano plotly.py
+  364  sudo ./freq_count_2 4 -r2 -s4 -c100 > data.txt
+  365  ./plotly.py 
+  366  cat data.txt 
+  367  sudo nano data.txt 
+  368  ./plotly.py 
+  369  sudo nano data.txt 
+  370  sudo ./freq_count_2 4 -r2 -s4 -c400 > data.txt
+  371  ./plotly.py 
+  372  sudo ./freq_count_2 4 -r2 -s4 -c400 > data.txt
+  373  sudo nano data.txt 
+  374  sudo ./freq_count_2 4 -r2 -s4 -c400 > data.txt
+  375  ./plotly.py 
+  376  sudo ./freq_count_2 4 -r2 -s4 -c400 > data.txt
+  377  sudo nano data.txt 
+  378  sudo nano plotly.py
+  379  ./plotly.py 
+  380  sudo nano plotly.py
+  381  ./plotly.py 
+  382  sudo nano plotly.py
+  383  ./plotly.py 
+  384  sudo nano plotly.py
+  385  ./plotly.py 
+  386  sudo nano plotly.py
+  387  ./plotly.py 
+  388  sudo ./freq_count_2 4 -r2 -s4 -c400 > data.txt
+  389  ./plotly.py 
+  390  sudo nano data.txt 
+  391  sudo nano plotly.py
+  392  ./plotly.py 
+  393  sudo nano plotly.py
+  394  ./plotly.py 
+  395  sudo nano plotly.py
+  396  ./plotly.py 
+  397  sudo nano plotly.py
+  398  ./plotly.py 
+  399  sudo ./freq_count_2 4 -r2 -s4 -c400 > data.txt
+  400  ./plotly.py 
+  401  sudo ./freq_count_2 4 -r2 -s4 -c400 > data.txt
+  402  ./plotly.py 
+  403  sudo nano plotly.py
+  404  ./plotly.py 
+  405  sudo nano plotly.py
+  406  ./plotly.py 
+  407  sudo nano plotly.py
+  408  ./plotly.py 
+  409  sudo nano plotly.py
+  410  ./plotly.py 
+  411  sudo nano plotly.py
+  412  ./plotly.py 
+  413  sudo nano plotly.py
+  414  ./plotly.py 
+  415  sudo nano plotly.py
+  416  ./plotly.py 
+  417  sudo nano plotly.py
+  418  ./plotly.py 
+  419  sudo nano plotly.py
+  420  ./plotly.py 
+  421  sudo nano plotly.py
+  422  ./plotly.py 
+  423  sudo nano plotly.py
+  424  sudo nano freq_count_2.c
+  425  sudo nano plotly.py
+  426  sudo nano /var/www/html/index.php
+  427  sudo nano plotly.py
+  428  ./plotly.py 
+  429  pip install statistics
+  430  ./plotly.py 
+  431  sudo nano plotly.py
+  432  ./plotly.py 
+  433  sudo nano plotly.py
+  434  ./plotly.py 
+  435  sudo nano plotly.py
+  436  ./plotly.py 
+  437  pip3 install mpld3
+  438  ./plotly.py 
+  439  sudo nano plotly.py
+  440  ./plotly.py 
+  441  sudo nano plotly.py
+  442  ./plotly.py 
+  443  sudo nano plotly.py
+  444  ./plotly.py 
+  445  sudo nano plotly.py
+  446  ./plotly.py 
+  447  sudo nano plotly.py
+  448  ./plotly.py 
+  449  sudo nano plotly.py
+  450  ./plotly.py 
+  451  sudo nano plotly.py
+  452  ./plotly.py 
+  453  sudo nano plotly.py
+  454  ./plotly.py 
+  455  sudo ./freq_count_2 4 -r2 -s4 -c400 > data.txt
+  456  ./plotly.py 
+  457  sudo nano plotly.py
+  458  ./plotly.py 
+  459  sudo nano plotly.py
+  460  ./plotly.py 
+  461  sudo nano plotly.py
+  462  ./plotly.py 
+  463  sudo nano plotly.py
+  464  ./plotly.py 
+  465  sudo ./freq_count_2 4 -r2 -s4 -c400 > data.txt
+  466  ./plotly.py 
+  467  sudo nano plotly.py
+  468  ./plotly.py 
+  469  sudo nano plotly.py
+  470  ./plotly.py 
+  471  sudo nano plotly.py
+  472  ./plotly.py 
+  473  sudo nano plotly.py
+  474  ./plotly.py 
+  475  sudo nano plotly.py
+  476  ./plotly.py 
+  477  sudo nano plotly.py
+  478  ./plotly.py 
+  479  sudo nano plotly.py
+  480  ./plotly.py 
+  481  sudo nano plotly.py
+  482  ./plotly.py 
+  483  sudo nano plotly.py
+  484  ./plotly.py 
+  485  sudo nano plotly.py
+  486  ./plotly.py 
+  487  sudo nano plotly.py
+  488  ./plotly.py 
+  489  sudo nano plotly.py
+  490  ./plotly.py 
+  491  sudo nano plotly.py
+  492  ./plotly.py 
+  493  sudo nano plotly.py
+  494  ./plotly.py 
+  495  sudo nano plotly.py
+  496  ./plotly.py 
+  497  sudo nano plotly.py
+  498  ./plotly.py 
+  499  sudo ./freq_count_2 4 -r2 -s4 -c400 > data.txt
+  500  ./plotly.py 
+  501  sudo ./freq_count_2 4 -r2 -s4 -c400 > data.txt
+  502  ./plotly.py 
+  503  sudo ./freq_count_2 4 -r2 -s4 -c400 > data.txt
+  504  ./plotly.py 
+  505  sudo ./freq_count_2 4 -r2 -s4 -c400 > data.txt
+  506  ./plotly.py 
+  507  sudo ./freq_count_2 4 -r2 -s4 -c2000 > data.txt
+  508  ./plotly.py 
+  509  sudo nano plotly.py
+  510  sudo nano /var/www/html/index.php 
+  511  cp index.php index.html
+  512  cp /var/www/html/index.php /var/www/html/index.html
+  513  rm /var/www/html/index.html 
+  514  sudo nano /var/www/html/index.php 
+  515  ls /var/www/html/
+  516  rm /var/www/html/figure.html 
+  517  cd /var/www/html/
+  518  sudo nano run.php
+  519  php
+  520  php run.php 
+  521  sudo nano run.php
+  522  php run.php 
+  523  sudo nano run.php
+  524  php run.php 
+  525  sudo nano run.php
+  526  php run.php 
+  527  sudo nano run.php
+  528  php run.php 
+  529  sud php run.php 
+  530  sudo php run.php 
+  531  php run.php 
+  532  sudo cat ~/projects/conductometer/0/plotly.py
+  533  sudo nano ~/projects/conductometer/0/plotly.py
+  534  chmod 777 ~/projects/conductometer/0/plotly.py
+  535  sudo chmod 777 ~/projects/conductometer/0/plotly.py
+  536  php run.php 
+  537  sudo nano run.php
+  538  php run.php 
+  539  ls
+  540  sudo nano run.php
+  541  php run.php 
+  542  ls
+  543  php run.php 
+  544  sudo chmod 777 ~/projects/conductometer/0/freq_count_2
+  545  ~/projects/conductometer/0/./plotly.py 
+  546  cd ~/projects/conductometer/0/
+  547  ./plotly.py 
+  548  cd /var/www/html/
+  549  sudo nano run.php 
+  550  php run.php 
+  551  ls -la ~/projects/conductometer/0/
+  552  sudo usermod -aG www-data tofm 
+  553  sudo nano run.php 
+  554  php run.php 
+  555  sudo nano run.php 
+  556  php run.php 
+  557  sudo usermod -aG www-data root
+  558  sudo usermod -aG root www-data 
+  559  sudo nano run.php 
+  560  php run.php 
+  561  sudo nano run.php 
+  562  php run.php 
+  563  sudo nano run.php 
+  564  php run.php 
+  565  sudo nano run.php 
+  566  php run.php 
+  567  sudo nano run.php 
+  568  sudo nano run.php 
+  569  sudo ls /var/log/apache2/
+  570  sudo cat /var/log/apache2/error.log
+  571  sudo pip install mpld5
+  572  sudo nano run.php 
+  573  sudo nano /etc/sudoers
+  574  php run.php 
+  575  sudo nano run.php 
+  576  php run.php 
+  577  sudo nano run.php 
+  578  php run.php 
+  579  sudo nano run.php 
+  580  php run.php 
+  581  sudo nano run.php 
+  582  php run.php 
+  583  sudo nano run.php 
+  584  sudo reboot
+  585  sudo tail -f /var/log/apache2/error.log
+  586  cd projects/conductometer/0/
+  587  sudo nano plotly.py
+  588  sudo nano run.php 
+  589  cd /var/www/html/
+  590  sudo nano run.php 
+  591  which python
+  592  sudo which python
+  593  sudo pyhton
+  594  sudo python
+  595  python
+  596  sudo pyhton
+  597  sudo python
+  598  echo
+  599  echo $PYTHONPATH
+  600  sudo echo $PYTHONPATH
+  601  sudo nano /etc/sudoers
+  602  sudo visudo /etc/sudoers
+  603  sudo sudo -V
+  604  sudo sudo -V | grep PATH
+  605  sudo visudo
+  606  echo $PYTHONPATH
+  607  echo $PATH
+  608  sudo python
+  609  cd ~/projects/conductometer/0/
+  610  ls
+  611  sudo nano plotly.py
+  612  ./plotly.py 
+  613  sudo nano plotly.py
+  614  ./plotly.py 
+  615  sudo nano plotly.py
+  616  ./plotly.py 
+  617  sudo nano plotly.py
+  618  ./plotly.py 
+  619  sudo nano plotly.py
+  620  ./plotly.py 
+  621  sudo nano plotly.py
+  622  ./plotly.py 
+  623  sudo nano plotly.py
+  624  ./plotly.py 
+  625  sudo nano plotly.py
+  626  ./plotly.py 
+  627  sudo nano plotly.py
+  628  ./plotly.py 
+  629  sudo nano plotly.py
+  630  sudo ./freq_count_2 4 -r2 -s4 -c2000 > data.txt
+  631  sudo nano plotly.py
+  632  ./plotly.py 
+  633  ифц
+  634  ifconfig 
+  635  route -ne
+  636  sudo nano /etc/dhcpd.conf
+  637  sudo nano /etc/dhcpcd.conf
+  638  sudo reboot
+  639  ifconfig 
+  640  sudo nano /etc/dnsmasq.conf
+  641  sudo reboot
+  642  ifconfig 
+  643  route
+  644  sudo systemctl status sshd.service 
+  645  px
+  646  ps 
+  647  cd ~/projects/conductometer/0/
+  648  ls
+  649  sudo ./plotly.py 
+  650  ./plotly.py 
+  651  ls /var/www/html/
+  652  ./plotly.py 
+  653  ls -la /var/www/html/
+  654  sudo cat /var/www/html/
+  655  sudo cat /var/www/html/figure1.html 
+  656  ls
+  657  clear
+  658  htop
+  659  sudo nano /etc/wpa_supplicant/wpa_supplicant.conf 
+  660  ./plotly.py 
+  661  sudo ./freq_count_2 4 -r2 -s4 -c100000 > data.txt
+  662  ./plotly.py 
+  663  clear
+  664  htop
+  665  clear
+  666  ls
+  667  cd projects/conductometer/0/
+  668  ls
+  669  sudo nano freq_count_2
+  670  clear
+  671  ls
+  672  sudo nano freq_count_2.c
+  673  sudo ./freq_count_2 4 -r2 -s4 -c10 > data.txt
+  674  sudo ./freq_count_2 4 -r2 -s4 -c 100 > data.txt
+  675  sudo cat data.txt
+  676  sudo ./freq_count_2 4 -r2 -s4 -c 100 > data.txt
+  677  sudo cat data.txt
+  678  sudo ./freq_count_2 4 -r2 -s4 -c 100 > data.txt
+  679  sudo cat data.txt
+  680  sudo ./freq_count_2 4 -r2 -s4 -c 100 
+  681  sudo ./freq_count_2 4 -r2 -s4 -c 1000 
+  682  ./plotly.py 
+  683  sudo nano ./plotly.py
+  684  ifconfig 
+  685  sudo nano /etc/wpa_supplicant/wpa_supplicant.conf 
+  686  ifconfig 
+  687  sudo nano /etc/wpa_supplicant/wpa_supplicant.conf 
+  688  reboot
+  689  cd /var/www/html/
+  690  ls
+  691  cd ~/projects/conductometer/0/
+  692  ls
+  693  sudo nano plotly.py
+  694  cd /var/www/html/
+  695  ls
+  696  sudo nano index.php
+  697  cd ~/projects/conductometer/0/
+  698  ls
+  699  sudo nano freq_count_2
+  700  sudo nano freq_count_2.c
+  701  cp freq_count_2.c /var/www/html/freq.txt
+  702  cp plotly.py /var/www/html/py.txt
+  703  poweroff
+  704  sudo poweroff
+  705  ls
+  706  cd projects/
+  707  ls
+  708  cd conductometer/0/
+  709  ls
+  710  history
+  711  sudo nano freq_count_2
+  712  sudo nano freq_count_2.c
+  713  ifconfig
+  714  ls
+  715  ls /var/www/html/
+  716  sudo nano plotly.py
+  717  sudo ./freq_count_2 4 -r2 -s4 -c 100000 > 140621_0_aggr.txt
+  718  sudo cat 140621_0_aggr.txt 
+  719  sudo ./freq_count_2 4 -r2 -s4 -c 100000 > 140621_0_aggr.txt
+  720  ./plotly
+  721  ./plotly.py 
+  722  sudo ./freq_count_2 4 -r2 -s4 -c 100000 > 140621_1_aggr.txt
+  723  history
+  724  history > his.txt
